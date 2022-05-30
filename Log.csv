@@ -1,0 +1,14 @@
+Succesful or Unsuccesful, Requested URL, Hostname, source IP, destination IP, source port, destination port, Server Resposne line
+
+Successful, 200, http://www.google.com, www.google.com, 10.0.2.15, 142.251.46.164, 34458, 80, HTTP/1.1 200 OK
+
+Unsuccessful, 404, http://www.google.com/somedoc1.html:80, www.google.com, 10.0.2.15, 142.251.46.228, 52724, 80, HTTP/1.1 404 Not Found
+
+Unsuccessful, 404, http://www.example.com/anyname.html, www.example.com, 10.0.2.15, 93.184.216.34, 50744, 80, HTTP/1.1 404 Not Found
+
+Successful, 200, http://www.example.com/index.html, www.example.com, 10.0.2.15, 93.184.216.34, 50753, 80, HTTP/1.1 200 OK
+
+Unsuccessful, 56, http://www.google.com:443, www.google.com, 10.0.2.15, 142.250.189.164, 47654, 80, [Errno 54] Connection reset by peer
+
+Unsuccessful, 404, http://www.neverssl.com, www.neverssl.com, 10.0.2.15, 99.86.38.93, 37076, 80, HTTP/1.1 404 Not FoundUnsuccessful, 56, http://www.google.com:443, www.google.com, 10.0.2.15, 142.251.46.164, 57984, 443, [Errno 54] Connection reset by peer
+
